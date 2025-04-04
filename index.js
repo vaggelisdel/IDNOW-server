@@ -10,7 +10,7 @@ const port = process.env.PORT || 3003;
 
 // ✅ Enable CORS for all routes
 app.use(cors({
-  origin: ['https://idnow-server-ad68af5bd4ee.herokuapp.com'],
+  origin: ['https://idnow-client.vercel.app'],
   methods: ['GET', 'POST'],
   credentials: true,
 }));
