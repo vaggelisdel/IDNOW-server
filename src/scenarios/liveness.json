@@ -1,0 +1,25 @@
+{
+  "interfaceSettings": {
+    
+  },
+  "documentsToCapture": [
+    {
+      "code": "DOC1",
+      "docTypes": [
+        "ID",
+        "P"
+      ]
+    },
+    {
+      "code": "LIVENESS_DOC_CODE",
+      "docTypes": [
+        "LIVENESS"
+      ],
+      "label": "Liveness",
+      "livenessReferenceDoc": {
+        "location": "ONBOARDING",
+        "value": "DOC1"
+      }
+    }
+  ]
+}

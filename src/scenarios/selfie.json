@@ -1,0 +1,20 @@
+{
+  "interfaceSettings": {
+    "language": "FR"
+  },
+  "documentsToCapture": [
+    {
+      "code": "DOC1",
+      "docTypes": [
+        "ID",
+        "P"
+      ]
+    },
+    {
+      "code": "DOC2",
+      "docTypes": [
+        "SELFIE"
+      ]
+    }
+  ]
+}

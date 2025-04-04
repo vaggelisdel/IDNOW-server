@@ -1,0 +1,68 @@
+{
+  "code": "oktodemo",
+  "pathName": "oktodemo",
+  "theme": {
+    "titleTxtColor": "#65798A",
+    "headerBgColor": "#ffffff",
+    "bodyBgColor": "#ffffff",
+    "btnBgColor": "#6CCDD4",
+    "btnHoverBgColor": "#6CCDD4",
+    "btnTxtColor": "#ffffff",
+    "btnBorderRadius": "15px"
+  },
+  "wordings": [
+    {
+      "linkEmailSubject": "Complete your subscription",
+      "linkEmailMsg": "Hello, <br>Click on the link to capture your documents and complete your subscription {}.",
+      "linkSmsMsg": "Hello, \r\nClick on the link to capture your documents and complete your subscription {}.",
+      "language": "EN"
+    },
+    {
+      "linkEmailSubject": "Compléter votre souscription",
+      "linkEmailMsg": "Bonjour, <br>Cliquez sur le lien pour ajouter vos documents et compléter votre souscription {}.",
+      "linkSmsMsg": "Bonjour, \r\nCliquez sur le lien pour ajouter vos documents et compléter votre souscription {}.",
+      "language": "FR"
+    },
+    {
+      "linkEmailSubject": "Completa la tua sottoscrizione",
+      "linkEmailMsg": "Ciao, <br>fai clic sul collegamento per acquisire i documenti e completare la sottoscrizione {}.",
+      "linkSmsMsg": "Ciao,\r\nfai clic sul collegamento per acquisire i documenti e completare la sottoscrizione {}.",
+      "language": "IT"
+    },
+    {
+      "linkEmailSubject": "Complete su suscripcion",
+      "linkEmailMsg": "Hola: <br>Haga clic en el enlace para capturar sus documentos y completar la suscripcion {}.",
+      "linkSmsMsg": "Hola: \r\nHaga clic en el enlace para capturar sus documentos y completar la suscripcion {}.",
+      "language": "ES"
+    },
+    {
+      "linkEmailSubject": "Abonnement abschließen",
+      "linkEmailMsg": "Guten Tag!<br>Klicken Sie zum Aufnehmen der Dokumente auf den Link und schließen Sie das Abonnement ab {}.",
+      "linkSmsMsg": "Guten Tag!\r\nKlicken Sie zum Aufnehmen der Dokumente auf den Link und schließen Sie das Abonnement ab {}.",
+      "language": "DE"
+    }
+  ],
+  "options": {
+    "callbackHeaderField": {
+      "name": "Api-key",
+      "value": "IdCheckIo-SDK-Web"
+    },
+    "emailSenderName": "SdkWeb sender",
+    "callbackWithSsl": false,
+    "linkValidity": 24,
+    "payloadMaxSize": 5000,
+    "iframeDisplay": false,
+    "iframeRedirectParent": false,
+    "consent": {
+      "biometricConsent": true
+    },
+    "refererType": "NONE",
+    "idCaptureSettings": {
+      "blockUpload": false,
+      "captureModeDesktop": "CAMERA",
+      "captureModeMobile": "CAMERA",
+      "displayUploadPromptOnMobile": false
+    },
+    "widgetConf": "{\"theme\":{\"hideHeader\":true,\"btnBgColor\":\"#6CCDD4\",\"btnHoverBgColor\":\"#6CCDD4\"}}"
+  }
+}
