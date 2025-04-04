@@ -9,11 +9,7 @@ const app = express();
 const port = process.env.PORT || 3003;
 
 // ✅ Enable CORS for all routes
-app.use(cors({
-  origin: ['https://idnow-client.vercel.app'],
-  methods: ['GET', 'POST'],
-  credentials: true,
-}));
+app.use(cors());
 
 // load .env.local
 // const envLocal = '.env.local';
