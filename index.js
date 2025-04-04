@@ -10,7 +10,7 @@ const port = process.env.PORT || 3003;
 
 // ✅ Enable CORS for all routes
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://localhost:3000', 'http://192.168.1.179:3000', 'https://192.168.1.179:3000'],
+  origin: ['https://idnow-server-ad68af5bd4ee.herokuapp.com'],
   methods: ['GET', 'POST'],
   credentials: true,
 }));
@@ -71,12 +71,12 @@ function handleError(res, error) {
 
 init();
 
-app.get('/api/start', (req, res) => {  
+app.get('/api/start', (req, res) => {
   const language = req.headers['accept-language'] || 'EN'; // Default to 'EN' if not provided
   console.log("Started....");
-  
+
   start(language)  // Pass language to the function
-    .then(data => {      
+    .then(data => {
       res.send(data);
     })
     .catch(error => {
